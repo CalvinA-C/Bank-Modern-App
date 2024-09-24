@@ -4,13 +4,10 @@ import styles from "./styles";
 import {
   Billing,
   Business,
-  Button,
   CardDeal,
   Clients,
   CTA,
-  FeedbackCard,
   Footer,
-  GetStarted,
   Hero,
   Navbar,
   Stats,
@@ -31,7 +28,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <Business />

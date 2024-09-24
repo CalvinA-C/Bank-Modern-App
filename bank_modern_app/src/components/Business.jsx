@@ -1,11 +1,8 @@
-import React from 'react'
+import { features } from "../constants";
+import styles, { layout } from "../styles";
 
 const Business = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default Business
+export default Business;
